@@ -66,6 +66,12 @@ body{
   font-size: 40px;
   font-style: bold;
 }
+
+img.logo{
+    width:100px; /* you can use % */
+    height: auto;
+}
+
 div.polaroid {
   width: 80%;
   background-color: white;
