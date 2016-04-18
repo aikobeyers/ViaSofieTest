@@ -1,9 +1,9 @@
 from django.conf.urls import url
 
-from . import views
+from polls import views as home_views
+from polls import views as about_views
 
 urlpatterns = [
-    url(r'^$', views.home, name='home'),
-    url(r'^$about/', views.about, name='about'),
-
+    url(r'^$', home_views.home, name='home'),
+    url(r'^about/', about_views.about, name='about'),
 ]
