@@ -1,0 +1,69 @@
+body{
+
+      font-family: "SohoGothicProLight","Helvetica","Arial",sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1.5;
+      color: red;
+      background-color: #fff;
+
+
+}
+//navigationcss
+.navbar-inverse {
+    background-color: green;
+
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: white;
+    background-color: green;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse {
+    border-color: green;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: black  ;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: black;
+    color: white;
+}
+//homepagecss
+.homepage{
+  background-image: url("ba.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.homepage h1{
+  color:green;
+}
+//immoInDeKijker
+.immoInDeKijker{
+  color:black;
+  background-color:  #d9d9d9;
+
+}
+.immoInDeKijker h2{
+  font-size: 40px;
+  font-style: bold;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
