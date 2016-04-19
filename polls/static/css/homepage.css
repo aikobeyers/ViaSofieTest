@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @@font-face {
   font-family: 'abc';
   font-style: normal;
@@ -18,13 +19,25 @@ body{
 
 
 
+=======
+
+body{
+
+      font-family: "SohoGothicProLight","Helvetica","Arial",sans-serif;
+>>>>>>> origin/master
       font-weight: 400;
       font-style: normal;
       font-size: 20px;
 
+
       line-height: 1.5;
+<<<<<<< HEAD
       color: black;
       background-color: #0000;
+=======
+      color: #e8e8e8;
+      background-color: #e8e8e8;
+>>>>>>> origin/master
 
 }
 
@@ -50,6 +63,13 @@ quote{
     font-family: "Courier New", Courier, monospace;
 
 
+
+}
+img.agreementImage{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+   filter: grayscale(100%);
+   width:100%;
+   height: auto;
 
 }
 
