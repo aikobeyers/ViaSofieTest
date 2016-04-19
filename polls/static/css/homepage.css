@@ -16,8 +16,31 @@ body{
 
 a.button {
 
-  margin-top: 20px;
 }
+
+
+.navt img {
+  vertical-align: middle;
+}
+
+.navbar {
+  position: relative;
+}
+quote{
+  margin-left: 200px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
 
 .navbar-inverse .navbar-nav > .active > a {
   background-image: linear-gradient(to bottom,#bad5ce 0,#bad5ce 100%);
