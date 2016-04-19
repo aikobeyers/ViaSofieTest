@@ -1,6 +1,23 @@
+@@font-face {
+  font-family: 'abc';
+  font-style: normal;
+  font-weight: normal;
+  src: local('abc') url("fonts/abc.otf")format("opentype");
+
+}
+
+
+
 body{
 
-      font-family: "Courier New", Courier, monospace;
+
+      font-family: "abc",serif;
+      /*
+      src: url('../static/fonts/viasoabc.otf');
+      src: local('../static/fonts/abc.otf')*/
+
+
+
       font-weight: 400;
       font-style: normal;
       font-size: 20px;
@@ -10,9 +27,10 @@ body{
       background-color: #0000;
 
 }
-/*.a {
-  color: red;
-}*/
+
+
+
+
 
 a.button {
 
@@ -28,10 +46,10 @@ a.button {
 }
 quote{
   margin-left: 200px;
-  font-family: Impact, Charcoal, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
+
+    font-family: "Courier New", Courier, monospace;
+
+
 
 }
 
@@ -53,6 +71,7 @@ quote{
     background-color: #eaf3f1 ;
 
 }
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     color: #eaf3f1 ;
     background-color: #fff ;
@@ -95,10 +114,17 @@ quote{
   font-style: bold;
 }
 
+<<<<<<< HEAD
 /*img.logo{
     width:60px; /* you can use % */
   /*  height: auto;
 }*/
+=======
+img.logo{
+    width:100px; /* you can use % */
+    height: auto;
+}
+>>>>>>> origin/master
 
 div.polaroid {
   width: 80%;
@@ -111,7 +137,7 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
-.footer{
+#footer{
   position: fixed;
   bottom: 0px;
   width: 100%;
