@@ -1,17 +1,22 @@
 body{
 
-      font-family: "SohoGothicProLight","Helvetica","Arial",sans-serif;
+      font-family: "Courier New", Courier, monospace;
       font-weight: 400;
       font-style: normal;
       font-size: 20px;
 
       line-height: 1.5;
-      color: #e8e8e8;
-      background-color: F000;
+      color: black;
+      background-color: #0000;
 
 }
-.a {
+/*.a {
   color: red;
+}*/
+
+a.button {
+
+  margin-top: 20px;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -67,10 +72,10 @@ body{
   font-style: bold;
 }
 
-img.logo{
+/*img.logo{
     width:60px; /* you can use % */
-    height: auto;
-}
+  /*  height: auto;
+}*/
 
 div.polaroid {
   width: 80%;
